@@ -1,6 +1,6 @@
 import { SearchIcon } from '@heroicons/react/outline';
 import React from 'react';
-import { TwitterShareButton, TwitterTimelineEmbed, TwitterTweetEmbed } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 
 function Widgets() {
@@ -22,7 +22,9 @@ function Widgets() {
                 options={{ height: 1000 }}
             />
 
-
+            <div>
+                If Your country blocked by Twitter, you may not see Twitter widgets here.
+            </div>
         </div>
     )
 }
