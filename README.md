@@ -7,7 +7,7 @@
 # Description: This project includes:
 - NextJS;
 - Sanity CMS;
-- Typescript,
+- Typescript;
 - SSR;
 - NextAuth;
 - Login by Google account;
